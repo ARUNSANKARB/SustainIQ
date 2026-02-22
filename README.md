@@ -1,4 +1,4 @@
-# 🌱 SustainIQ – AI-Powered Gamified Quiz Platform
+#  SustainIQ – AI-Powered Gamified Quiz Platform
 
 SustainIQ is a modular, production-ready quiz platform built around the **17 UN Sustainable Development Goals (SDGs)**.  
 It provides an engaging quiz experience with AI-generated explanations to promote sustainability awareness through gamification.
@@ -7,9 +7,9 @@ The platform uses a **React (Vite) frontend** and an **Express.js backend**, wit
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🧠 Quiz Flow
+###  Quiz Flow
 - Start Quiz → Backend generates **10 random SDG-based questions**
 - Navigate questions with progress tracking
 - Mandatory answer selection before submission
@@ -22,7 +22,7 @@ The platform uses a **React (Vite) frontend** and an **Express.js backend**, wit
 
 ---
 
-### 🎯 Dynamic Question Generation
+###  Dynamic Question Generation
 - Questions generated from SDG dataset (not hardcoded)
 - 10 unique questions per session
 - Each question belongs to a different SDG
@@ -30,21 +30,21 @@ The platform uses a **React (Vite) frontend** and an **Express.js backend**, wit
 
 ---
 
-### 🤖 AI Explanations
+###  AI Explanations
 - Grok API generates educational explanations
 - Provider-agnostic service abstraction
 - Safe fallback explanations if API key not available
 
 ---
 
-### 🔐 Security
+###  Security
 - API keys stored in environment variables
 - Backend validation before answer processing
 - No secrets exposed to frontend
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 sustainiq/
 /frontend # React + Vite
 /src
@@ -63,7 +63,7 @@ sustainiq/
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 
 ### Clean Separation of Concerns
 - **Frontend:** UI rendering, navigation, state, API client
@@ -74,15 +74,15 @@ sustainiq/
 
 ---
 
-## ⚙️ Setup & Run
+##  Setup & Run
 
-### ✅ Prerequisites
+###  Prerequisites
 - Node.js (v16+)
 - GROK_API_KEY (optional)
 
 ---
 
-### 🔹 Backend
+###  Backend
 ```bash
 cd backend
 npm install
@@ -105,7 +105,7 @@ Per-question result
 
 AI explanations
 
-🧾 Data Models
+ Data Models
 Question
 
 id
@@ -130,7 +130,7 @@ questionId
 
 selectedOptionId
 
-🎨 Frontend State Management
+ Frontend State Management
 
 React Context API
 
@@ -138,7 +138,7 @@ Centralized quiz state and actions
 
 Easily refactorable to Redux if needed
 
-📱 UI Highlights
+ UI Highlights
 
 Minimal and readable UI
 
@@ -148,7 +148,7 @@ Responsive layout
 
 Review overlay colors for correctness
 
-🔮 Future Enhancements
+ Future Enhancements
 
 Database persistence (MongoDB/PostgreSQL)
 
@@ -162,7 +162,7 @@ Timed quiz mode
 
 Analytics dashboard
 
-✅ Production Checklist
+ Production Checklist
 
 Move sessions from memory → database
 
@@ -176,7 +176,7 @@ CI/CD pipeline setup
 
 Test suite (Jest + React Testing Library)
 
-📚 Learning Outcomes
+Learning Outcomes
 
 This project demonstrates:
 
@@ -192,7 +192,7 @@ Secure API key handling
 
 Modular scalable code structure
 
-👨‍💻 Author
+ Author
 
 Arun Sankar B
 
